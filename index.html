@@ -1,0 +1,60 @@
+<html>
+
+<head>
+    <script src="js/lib/jquery-3.6.0.min.js"></script>
+    <script src="js/lib/chessboard-1.0.0.min.js"></script>
+    <script src="js/lib/bootstrap.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/lib/bootstrap.min.css">
+    </link>
+    <link rel="stylesheet" href="css/lib/chessboard-1.0.0.min.css">
+    </link>
+    <link rel="stylesheet" href="css/style.css">
+    </link>
+    <script src="js/GenericFunctions.js"></script>
+
+</head>
+
+<body onload="startApp();" class="d-flex flex-column min-vh-100">
+    <header class="header-cls">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">Chess Board</a>
+            <ul class="nav justify-content-end">
+                <li class="nav-item">
+                  <a class="nav-link active" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Chess Board</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Contact</a>
+                </li>
+                
+              </ul>
+           
+        </nav>
+
+        
+    </header>
+    <content class="content-cls">
+        <div id="board1" class="board1">
+
+        </div>
+        <span><button type="button" class="default-margin btn btn-light default-btn"
+                onclick="setUpPosition('RuyLopez')">Ruy
+                Lopez</button></span>
+
+
+    </content>
+    <footer class="footer-cls">
+
+        <div>Created by <b class="green-hover">Althaf</b></div>
+    </footer>
+
+</body>
+
+</html>

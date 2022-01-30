@@ -1,0 +1,63 @@
+:root{
+    --background-color : #C6F2D0;
+    --foreground-color : #390D2F;
+    --nav-hover-color :  #11cc9e;
+}
+
+body{
+    background-color: var(--background-color);
+    color: var(--foreground-color);
+    font-family: 'Poppins';
+}
+.nav-default{
+    font-size: 16px;
+}
+.header-cls{
+    height: 60px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+}
+.nav-link{
+    color: var(--background-color);
+}
+.nav-link:hover{
+    color: var(--nav-hover-color);
+}
+.board1{
+    width: 500px;
+    padding: 20px;
+}
+.default-btn{
+    border-radius: 10px;
+    border-color: var(--background-color);
+}
+.default-btn:hover{
+    background-color: var(--nav-hover-color);
+    color: var(--foreground-color);
+}
+.default-btn:active{
+    background-color:var(--nav-hover-color);
+    color: var(--foreground-color);
+}
+.default-margin{
+    margin: 5px;
+}
+.content-cls{
+    min-height: calc(100vh - 100px);
+}
+.footer-cls {
+    background: #ACC8B3;
+    line-height: 40px;
+    text-align: center;
+    height: 40px;
+  }
+.green-hover:hover{
+    color: var(--nav-hover-color);
+    cursor: pointer;
+}
+.btn-hover-green:hover{
+    background-color: var(--nav-hover-color);
+    color: var(--foreground-color);
+    border-radius: 10px;
+}
